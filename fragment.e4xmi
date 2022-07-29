@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_cus7ELthEeeQyaE9qpHlYw">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_URZFoLtjEeeQyaE9qpHlYw" featurename="children" parentElementId="org.grits.toolbox.core.menu.main.plugins">
+    <elements xsi:type="menu:Menu" xmi:id="_wDYl4LtjEeeQyaE9qpHlYw" elementId="org.grits.toolbox.tools.trap.menu.main" label="Trap">
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_6w54gLtjEeeQyaE9qpHlYw" elementId="org.grits.toolbox.tools.trap.handledmenuitem.run" label="ProteinToPeptide" tooltip="Run to create Peptide Masses" command="_lvP_EMACEeeQyaE9qpHlYw"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_HQEeEBAKEeipW-FIvreWjg" elementId="org.grits.toolbox.tools.trap.handledmenuitem.msglycoproteinannotation" label="GlycoProtein Annotation" tooltip="New MS Glyco Protein Annotation" command="_aIbrMBAKEeipW-FIvreWjg"/>
+      <children xsi:type="menu:HandledMenuItem" xmi:id="_XsMWwFzAEeijuufGZkJGzA" elementId="org.grits.toolbox.tools.trap.handledmenuitem.spectrafiltering " label="Spectra Filtering " tooltip="New spectra filtering option" command="_O_sEMFzBEeijuufGZkJGzA"/>
+    </elements>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_h_1uEMACEeeQyaE9qpHlYw" featurename="commands" parentElementId="org.grits.toolbox.core.application">
+    <elements xsi:type="commands:Command" xmi:id="_lvP_EMACEeeQyaE9qpHlYw" elementId="org.grits.toolbox.tools.trap.command.proteinTopeptide" commandName="ProteinToPeptide" description="Convert Protein sequence to Peptide based on trypsin and calculates its Masses"/>
+    <elements xsi:type="commands:Command" xmi:id="_aIbrMBAKEeipW-FIvreWjg" elementId="org.grits.toolbox.tools.trap.command.glycoproteinannotation" commandName="GlycoProteinAnnotation" description="New MS Glyco Protein Annotation"/>
+    <elements xsi:type="commands:Command" xmi:id="_O_sEMFzBEeijuufGZkJGzA" elementId="org.grits.toolbox.tools.trap.command.spectrafiltering" commandName="Spectra Filtering" description="New spectra filtering option"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_rR020MACEeeQyaE9qpHlYw" featurename="handlers" parentElementId="org.grits.toolbox.core.trimmedwindow.main">
+    <elements xsi:type="commands:Handler" xmi:id="_wEjmAMACEeeQyaE9qpHlYw" elementId="org.grits.toolbox.tools.trap.handler.ProteinToPeptideHandler" contributionURI="bundleclass://org.grits.toolbox.tools.trap/org.grits.toolbox.tools.trap.handler.ProteinToPeptideHandler" command="_lvP_EMACEeeQyaE9qpHlYw"/>
+    <elements xsi:type="commands:Handler" xmi:id="_13pHwBALEeipW-FIvreWjg" elementId="org.grits.toolbox.tools.trap.handler.GlycoProteinHandler" contributionURI="bundleclass://org.grits.toolbox.tools.trap/org.grits.toolbox.tools.trap.handler.GlycoProteinHandler" command="_aIbrMBAKEeipW-FIvreWjg"/>
+    <elements xsi:type="commands:Handler" xmi:id="_hXK8YFzCEeijuufGZkJGzA" elementId="org.grits.toolbox.tools.trap.handler.SpectraFilteringHandler" contributionURI="bundleclass://org.grits.toolbox.tools.trap/org.grits.toolbox.tools.trap.handler.SpectraFilteringHandler" command="_O_sEMFzBEeijuufGZkJGzA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_aUJroBANEeipW-FIvreWjg" featurename="children" parentElementId="org.grits.toolbox.core.menu.main.grits.new">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_xLlWYBANEeipW-FIvreWjg" elementId="org.grits.toolbox.tools.trap.handledmenuitem.glycoproteinannotation" label="MS GlycoProtein Annotation" tooltip="MS Glyco Protein Annotation" command="_aIbrMBAKEeipW-FIvreWjg"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_4dM38BAPEeipW-FIvreWjg" featurename="children" parentElementId="org.grits.toolbox.core.menu.projectexplorer.popup.submenu.new">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_A8pwgBAQEeipW-FIvreWjg" elementId="org.grits.toolbox.tools.trap.handledmenuitem.msglycoproteinannotation" label="MS GlycoProtein Annotation" tooltip="MS Glyco Protein Annotation" command="_aIbrMBAKEeipW-FIvreWjg"/>
+  </fragments>
+</fragment:ModelFragments>

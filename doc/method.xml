@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<method accuracyPpm="true" fragAccuracyPpm="true" monoisotopic="true" trustCharge="true" version="1.02">
+    <AnalyteSetting>
+        <GlycoProteinSettings Enzyme="Trypsin" DerivType="Permethylated" ProteinSequence="aaa">
+            <GlycanDatabase database="GlycanDatabaseName" uri="GlycanDatabaseURI"/>
+        </GlycoProteinSettings>
+    </AnalyteSetting>
+    <booleanProp/>
+    <doubleProp/>
+    <integerProp/>
+    <stringProp/>
+</method>
